@@ -1,2 +1,2 @@
 # HTB-Mem
-A walkthrough for all the CTFs from HTB that i've solved
+A walkthrough with all the CTFs from HTB i've solved
