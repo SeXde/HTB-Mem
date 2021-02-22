@@ -1,2 +1,2 @@
 # HTB-Mem
-A walkthrough for all the CTFs from HTB that i made
+A walkthrough for all the CTFs from HTB that i've made
