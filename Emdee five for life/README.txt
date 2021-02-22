@@ -1,0 +1,1 @@
+This CTF consisted in coding a simple post request script, not a big deal to be honest.
