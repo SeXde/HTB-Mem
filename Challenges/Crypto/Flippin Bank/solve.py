@@ -1,8 +1,10 @@
 import socket
 import re
 
-ip = '167.71.128.208'
-port = 30640
+DOCKER_INSTANCE_IP = "" #Type the HTB docker instance ip here.
+DOCKER_INSTANCE_PORT = 0 #Type the HTB docker instance port here.
+ip = DOCKER_INSTANCE_IP
+port = DOCKER_INSTANCE_PORT
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((ip, port))
 s.send(b'admip')
