@@ -1,0 +1,12 @@
+Port 22:
+	ssh not vulnerable (Maybe i should try bruteforce with the user test or nopass)
+
+port 80:
+	Apache server (Versions seems vulnerable to few CVEs like Heap overflow or DOS attacks, but nothing interesting)
+	I saw one suspicius meesage at home page: "Use Burpsuite".
+	Also i've discovered a page called resources with a todo.txt file which says something about test user and other things.
+	A .js file leak some functions related to the report page, at the moment i'm stuck at this part.
+
+
+That being said I should hack the web page in order to get shell access and then maybe linepass.sh
+
